@@ -40,11 +40,8 @@ function repeater(str, options) {
 
   options.repeatTimes = options.repeatTimes || 1;
 
-
-
   const newStr = [];
   let result = '';
-
 
   for (let i = 0; i < options.repeatTimes; i++) {
     newStr.push(str);

@@ -34,12 +34,7 @@ function createDreamTeam(members) {
 
   } else {
     result = false;
-
-
   }
-
-
-
 
 
   result = newArr.sort().join('');
