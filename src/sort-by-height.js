@@ -19,9 +19,9 @@ function sortByHeight(arr) {
       if(arr[i] != -1){
           for(let j = i+1; j<arr.length; j++) {
               if(arr[i] > arr[j] && arr[j] != -1) {
-                  let test = arr[i];
+                  let numHolder = arr[i];
                   arr[i] = arr[j];
-                  arr[j] = test;
+                  arr[j] = numHolder;
               }
           }
       }
